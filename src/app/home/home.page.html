@@ -1,0 +1,168 @@
+<!-- <ion-header>
+  <ion-toolbar>
+    <ion-title>
+     Posibilidades para impresión
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content style="text-align: center;">
+  <ion-button  (click)="print1()"> Imprimir Prueba Btn1 </ion-button>
+  <ion-button  (click)="print2()"> Imprimir Prueba Btn2</ion-button>
+  <ion-button  (click)="print3()"> Imprimir Prueba Btn3 </ion-button>
+  <ion-button  (click)="print4()"> Imprimir Prueba Btn4 </ion-button>
+  <ion-button  (click)="print5()"> Imprimir Prueba Btn5 </ion-button>
+  <ion-button  (click)="print6()"> Imprimir Prueba Btn6 </ion-button>
+</ion-content> -->
+
+<ion-header no-border>  
+
+  <div class="cabeceraGeneral">
+    <img src="../../assets/images/PulmanLogo.png" (click)="siguientex()"
+      style="padding: 1vh; position: relative; z-index: 100; height: 100%; width: 100%; object-fit: scale-down; margin: 30%; ">
+  </div>
+
+  <!-- <div class="cabeceraTitulo">
+    Venta
+  </div> -->
+
+</ion-header>
+
+
+
+<ion-content>
+  <div style="height: 100%; width: 100%;background-color: #fe5b00;padding: 0px 3vw  3vw  3vw">
+    <div style=" height: 100%; background-color: white ;margin: 0px 0px 0px 0px;">
+      <ion-grid style="height: 100%;">
+        <ion-row class="ion-justify-content-center ion-align-items-center" style="height: 100%">
+          <ion-col size="12" style="text-align: center;">
+
+            <!-- pantalla 1  inicio -->
+            <div style="width: 100%;">
+
+              <ion-row>
+                <ion-col size="12">
+                  <ion-text color="primary">
+                    <h1>Inicio </h1>
+                  </ion-text>
+                </ion-col>
+              </ion-row>
+
+              <ion-row>
+                <ion-col size="12">
+                  <ion-text color="primary">
+                    <h4>Acerque su tarjeta</h4>
+                  </ion-text>
+                </ion-col>
+              </ion-row>
+
+
+              <ion-row style="width: 100%;">
+                <ion-col size="12" style="width: 100%;">
+                  <img src="../../assets/images/NFC001.jpg" style="object-fit: scale-down;">
+                </ion-col>
+              </ion-row>
+
+            </div>
+
+
+            <!-- pantalla 2  inicio -->
+            <!-- <div style="width: 100%;">
+
+              <ion-row style="position: relative;" (click)="pagina1()">
+                <ion-col size="12" style="padding-top: 2vh;">
+                  <div  style="background-color: #ff45008f; color:white; border-radius: 1vw; width: 15vw; height: 8vw; display: flex; justify-content: center; align-items: center; font-size: 4vw;">Volver</div>
+                </ion-col>
+              </ion-row>
+
+              <ion-row>
+                <ion-col size="12">
+                  <ion-text color="medium">
+                    <h4>Caratula: {{valores.caratula}}</h4>
+                  </ion-text>
+                </ion-col>
+              </ion-row>
+
+
+
+              <ion-row class="ion-no-margin ion-no-padding">
+                <ion-col size=6 class="ion-no-margin ion-no-padding">
+                  <ion-button (click)="btn1()" size="full" style="height: 14vh; font-size: 9vw; --background:lightgreen">
+                    $1.000
+                  </ion-button>
+                </ion-col>
+                <ion-col size=6 class="ion-no-margin ion-no-padding">
+                  <ion-button (click)="btn2()" size="full" style="height: 14vh; font-size: 9vw; --background: lightsteelblue">
+                    $2.000
+                  </ion-button>
+                </ion-col>
+              </ion-row>
+
+              <ion-row class="ion-no-margin ion-no-padding">
+                <ion-col size=6 class="ion-no-margin ion-no-padding">
+                  <ion-button (click)="btn5()" size="full" style="height: 14vh; font-size: 9vw; --background:lightcoral">
+                    $5.000
+                  </ion-button>
+                </ion-col>
+                <ion-col size=6 class="ion-no-margin ion-no-padding">
+                  <ion-button (click)="btn10()" size="full" style="height: 14vh; font-size: 9vw; --background:lightslategrey">
+                    $10.000
+                  </ion-button>
+                </ion-col>
+              </ion-row>
+
+              <ion-button size="full" style="margin-top: 4vh; height: 7vh;" (click)="pantalla=3">
+                Cerrar servicio
+              </ion-button>
+
+
+
+
+
+            </div> -->
+
+
+            <!-- pantalla 3  inicio -->
+            <!-- <div style="width: 100%;" >
+
+              <ion-row>
+                <ion-col size="12">
+                  <ion-text color="medium">
+                    <h4>Caratula: {{valores.caratula}}</h4>
+                  </ion-text>
+                </ion-col>
+              </ion-row>
+
+              <ion-row>
+                <ion-col size="12">
+                  <ion-text color="primary">
+                    <h1>Cerrar servicio</h1>
+                  </ion-text>
+                </ion-col>
+              </ion-row>
+
+              <ion-row>
+                <ion-col size="12">
+                  <ion-text color="primary">
+                    <h4>Acerque su tajeta</h4>
+                  </ion-text>
+                </ion-col>
+              </ion-row>
+
+
+              <ion-row style="width: 100%;">
+                <ion-col size="12" style="width: 100%;">
+                  <img src="../../assets/images/NFC001.jpg" style="object-fit: scale-down;">
+                </ion-col>
+              </ion-row>
+            </div> -->
+
+
+
+
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </div>
+  </div>
+</ion-content>
